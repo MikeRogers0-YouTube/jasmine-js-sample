@@ -6,9 +6,14 @@ describe("Blark", function() {
   });
 
   describe("#sayHi", function(){
-    it("returns Hi Son", function(){
+    it("should with parenting being true returns Hi Son", function(){
+      blark.startParenting();
       expect(blark.sayHi()).toEqual("Hi Son")
     })
+    it("should with parenting being false returns gary", function(){
+      blark.stopParenting();
+      expect(blark.sayhi()).toEqual("gary");
+    });
   });
 
   describe("#startParenting", function(){
@@ -24,4 +29,6 @@ describe("Blark", function() {
       expect(blark.isParenting).toEqual(false);
     });
   });
+
+
 });
