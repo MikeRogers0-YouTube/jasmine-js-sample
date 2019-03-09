@@ -3,7 +3,11 @@ function Blark() {
 }
 
 Blark.prototype.sayHi = function() {
-  return 'Hi Son';
+  if(this.isParenting) {
+    return 'Hi Son';
+  } else {
+    return 'gary';
+  }
 };
 
 Blark.prototype.startParenting = function() {

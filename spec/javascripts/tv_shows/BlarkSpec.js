@@ -12,7 +12,7 @@ describe("Blark", function() {
     })
     it("should with parenting being false returns gary", function(){
       blark.stopParenting();
-      expect(blark.sayhi()).toEqual("gary");
+      expect(blark.sayHi()).toEqual("gary");
     });
   });
 
