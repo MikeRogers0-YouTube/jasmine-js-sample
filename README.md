@@ -8,5 +8,6 @@ We're going to mark a Blark object, and make it pass the tests we write about it
 
 ## Other things to look at
 
-- https://github.com/mochajs/mocha - Similar, but I found this one a bit easier to setup.
+- https://github.com/mochajs/mocha - Similar, to jasmine
+- https://qunitjs.com/ - Also similar to jasmine
 - https://travis-ci.org/ - Eventually we'll setup this to run in CI, so when a PR is made we can verify it has not broken anything.
